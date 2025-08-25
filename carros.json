@@ -1,0 +1,64 @@
+{
+  "carros": [
+    {
+      "modelo": "320i",
+      "marca": "BMW",
+      "ano": 2022,
+      "imagem": "https://grandbrasil.com.br/wp-content/uploads/2019/08/a44ce-https-production.autoforce.com-uploads-version-profile_image-3674-model_main_comprar-320i-sport-gp_bb56c49064v2.webp"
+    },
+    {
+      "modelo": "X6",
+      "marca": "BMW",
+      "ano": 2023,
+      "imagem": "https://w7.pngwing.com/pngs/139/120/png-transparent-2018-bmw-x6-m-car-sport-utility-vehicle-2018-bmw-x6-sdrive35i-bmw-compact-car-car-performance-car.png"
+    },
+    {
+      "modelo": "Argo",
+      "marca": "Fiat",
+      "ano": 2021,
+      "imagem": "https://production.autoforce.com/uploads/version/profile_image/5353/comprar-drive-1-0_04d7de105e.png"
+    },
+    {
+      "modelo": "Toro",
+      "marca": "Fiat",
+      "ano": 2022,
+      "imagem": "https://toro.fiat.com.br//asset/versions/2262RU2/852.webp"
+    },
+    {
+      "modelo": "Golf GTI",
+      "marca": "Volkswagen",
+      "ano": 2021,
+      "imagem": "https://w7.pngwing.com/pngs/912/480/png-transparent-car-volkswagen-gti-paris-motor-show-volkswagen-golf-gti-lincoln-motor-company-compact-car-car-volkswagen.png"
+    },
+    {
+      "modelo": "T-Cross",
+      "marca": "Volkswagen",
+      "ano": 2023,
+      "imagem": "https://garagem360.com.br/wp-content/uploads/2023/01/Sem-titulo4.png"
+    },
+    {
+      "modelo": "Creta",
+      "marca": "Hyundai",
+      "ano": 2022,
+      "imagem": "https://grandbrasil.com.br/wp-content/uploads/2025/01/novocreta-comfort.webp"
+    },
+    {
+      "modelo": "HB20",
+      "marca": "Hyundai",
+      "ano": 2023,
+      "imagem": "https://alpes-hub.s3.amazonaws.com/uploads/public/684/6e7/1f0/6846e71f00bd7366713417.webp"
+    },
+    {
+      "modelo": "Civic",
+      "marca": "Honda",
+      "ano": 2021,
+      "imagem": "https://allthecars.wordpress.com/wp-content/uploads/2020/10/honda-civic-2021-exl-01.jpg"
+    },
+    {
+      "modelo": "HR-V",
+      "marca": "Honda",
+      "ano": 2026,
+      "imagem": "https://www.honda.com.br/automoveis/sites/hab/files/2025/cores/01_3_4_FRONTAL_LADO_A_TOURING_VERMELHO.webp"
+    }
+  ]
+}

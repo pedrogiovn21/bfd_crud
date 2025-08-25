@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(21, 21, 21);
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    gap: 20px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px #ffffff ;
+}
+
+.inputForm{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.formularioBtn{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 20ms;
+    cursor: pointer;
+}
+
+.formularioBtn:hover{
+    transform: scale(1.005) ;
+    opacity: 0.8;
+}
+
+#listaCarros{
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);
+    list-style: none;
+    gap: 32px;
+    width: auto;
+}
+
+.cardCarro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: black;
+    background-color: #f2f2f2;
+    height: 30vw;
+    width: 20vw;
+    border-radius: 8px;
+    border: 3px solid black;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.cardCarro img{
+    width: 20vw;
+    height: 13vw;
+    padding-top: 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid #000;
+}
+
+.cardCarroBtn{
+    cursor: pointer;
+    border: 0 ;
+    background-color: transparent;
+}
+
+.cardCarroBtn img{
+    border: transparent;
+    width: 40px;
+    height: 40px;
+}

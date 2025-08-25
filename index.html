@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Concessionária</h1>
+    </header>
+    <main>
+        <form onsubmit="enviarDados(event)">
+            <input placeholder="Digite o modelo" class="inputForm" type="text" id="modelo">
+            <input placeholder="Digite o ano" class="inputForm" type="number" id="ano">
+            <select class="inputForm" id="marca">
+                <option value="">Marca</option>
+                <option>BMW</option>
+                <option>Hyundai</option>
+                <option>Fiat</option>
+                <option>Volkswagen</option>
+                <option>Honda</option>
+                <option>Chevrolet</option>
+            </select>
+            <input placeholder="Digite o caminho da imagem" class="inputForm" type="text" id="imagem">
+            <button class="formularioBtn">Adicionar Carro</button>
+        </form>
+        <br>
+        <h2>Carros Disponíveis:</h2>
+        <ul id="listaCarros">
+            
+        </ul>
+    </main>
+    <script src="main.js"></script>
+    <script src="addCarro.js"></script>
+</body>
+</html>
