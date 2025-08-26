@@ -28,7 +28,7 @@ function renderizaCarros(){
                 <h3>${carro.marca}</h3>
                 <div class="divCardBtns">
                     <button id="btnEditar" class="cardCarroBtn btnEditar" data-index="${index}" alt="editar">
-                        <img src="/img/editar.jpg">
+                        <img src="./img/editar.jpg">
                     </button>
                     <button id="btnRemover" class="cardCarroBtn btnRemover" data-index="${index}" alt="remover">
                         <img src="./img/lixeira.webp">
